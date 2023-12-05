@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enthuziastic_Assignment</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.cdnfonts.com/css/metropolis" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <!--  flex flex-col md:flex-row justify-center items-stretch bg-white  -->
+        <div class="max-width-lg py-5">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-5 mx-4 md:mx-5 md:max-w-full">
+                <img loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/55dae9d6c13caa3c1f5653cd6e0fdd5e8cb64f4f1dc13c96267f0b07f7507d43?"
+                    class="aspect-[6.39] object-contain object-center md:w-[243px] overflow-hidden my-auto" />
+                <div class="flex flex-col md:flex-row items-center justify-between gap-5 my-auto mx-4 md:mx-0 md:flex-wrap">
+                    <div class="text-zinc-800 text-center font-medium leading-6 whitespace-nowrap">
+                        Courses
+                    </div>
+                    <div class="text-zinc-800 text-center  font-medium leading-6">
+                        Activities
+                    </div>
+                    <div class="text-zinc-800 text-center  font-medium leading-6">
+                        Offers
+                    </div>
+                    <div class="text-zinc-800 text-center  font-medium leading-6">
+                        About Us
+                    </div>
+                    <div class="text-zinc-800 text-center font-medium leading-6 whitespace-nowrap">
+                        Contact Us
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row items-center justify-between gap-4 my-4 md:my-0">
+                    <div class="text-zinc-800  font-medium leading-6  whitespace-nowrap my-auto">
+                        Log In
+                    </div>
+                    <div
+                        class="text-white  font-semibold leading-6 whitespace-nowrap bg-pink-600 px-4 py-2 rounded-lg">
+                        Get started
+                    </div>
+                </div>
+                <div class="flex flex-wrap flex-row md:flex-row md:flex-wrap">
+                    <svg width="38" height="39" viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg" class="aspect-[4.47] mx-2 object-contain object-center overflow-hidden">
+                        <g id="logos:whatsapp-icon" clip-path="url(#clip0_3647_92497)">
+                            <path id="Vector"
+                                d="M0.809141 19.2731C0.80825 22.4659 1.649 25.5833 3.24767 28.3311L0.65625 37.7195L10.3391 35.2003C13.0173 36.6469 16.018 37.405 19.0672 37.4052H19.0753C29.1416 37.4052 37.3358 29.2774 37.3401 19.2874C37.342 14.4465 35.4438 9.89448 31.995 6.46977C28.5468 3.04535 23.9608 1.15846 19.0745 1.15625C9.00705 1.15625 0.813445 9.28354 0.809289 19.2731"
+                                fill="url(#paint0_linear_3647_92497)" />
+                            <path id="Vector_2"
+                                d="M0.158828 19.2667C0.157789 22.5743 1.02867 25.8033 2.68434 28.6495L0 38.3744L10.0301 35.7649C12.7937 37.26 15.9052 38.0483 19.0714 38.0494H19.0796C29.507 38.0494 37.9955 29.6294 38 19.2817C38.0018 14.2669 36.0353 9.55122 32.4633 6.00381C28.8908 2.45685 24.1408 0.502062 19.0796 0.5C8.65034 0.5 0.162984 8.91891 0.158828 19.2667ZM6.13195 28.1593L5.75745 27.5694C4.18312 25.0856 3.35216 22.2152 3.35335 19.2679C3.35677 10.6671 10.4111 3.66961 19.0855 3.66961C23.2863 3.67138 27.2341 5.29625 30.2035 8.24434C33.1727 11.1927 34.8065 15.112 34.8055 19.2805C34.8016 27.8814 27.7471 34.8797 19.0796 34.8797H19.0733C16.2511 34.8782 13.4832 34.1262 11.0693 32.705L10.4948 32.367L4.54278 33.9154L6.13195 28.1591V28.1593Z"
+                                fill="url(#paint1_linear_3647_92497)" />
+                            <path id="Vector_3"
+                                d="M14.3499 11.4191C13.9957 10.638 13.623 10.6223 13.2862 10.6086C13.0104 10.5968 12.6951 10.5977 12.3802 10.5977C12.0649 10.5977 11.5526 10.7154 11.1196 11.1845C10.6862 11.654 9.46484 12.7887 9.46484 15.0965C9.46484 17.4045 11.159 19.6349 11.3951 19.9482C11.6316 20.2609 14.6656 25.1484 19.4709 27.0287C23.4644 28.5913 24.2771 28.2805 25.1439 28.2021C26.0107 28.1241 27.941 27.0677 28.3348 25.9724C28.7289 24.8771 28.7289 23.9383 28.6108 23.7421C28.4926 23.5467 28.1773 23.4293 27.7045 23.1948C27.2316 22.9602 24.9074 21.8253 24.4741 21.6688C24.0407 21.5124 23.7255 21.4343 23.4102 21.904C23.095 22.373 22.1896 23.4293 21.9137 23.7421C21.6381 24.0557 21.3621 24.0947 20.8895 23.8601C20.4164 23.6247 18.8939 23.13 17.0876 21.5321C15.6821 20.2887 14.7333 18.7532 14.4575 18.2835C14.1817 17.8146 14.428 17.5604 14.6651 17.3266C14.8775 17.1164 15.138 16.7789 15.3746 16.5051C15.6103 16.2311 15.689 16.0356 15.8466 15.7228C16.0044 15.4097 15.9254 15.1357 15.8074 14.9011C15.689 14.6665 14.7703 12.3466 14.3499 11.4191Z"
+                                fill="white" />
+                        </g>
+                        <defs>
+                            <linearGradient id="paint0_linear_3647_92497" x1="18.9982" y1="37.7195" x2="18.9982" y2="1.15625"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#1FAF38" />
+                                <stop offset="1" stop-color="#60D669" />
+                            </linearGradient>
+                            <linearGradient id="paint1_linear_3647_92497" x1="19" y1="38.3744" x2="19" y2="0.5"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#F9F9F9" />
+                                <stop offset="1" stop-color="white" />
+                            </linearGradient>
+                            <clipPath id="clip0_3647_92497">
+                                <rect width="38" height="38" fill="white" transform="translate(0 0.5)" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="aspect-[4.47] mx-2 object-contain object-center overflow-hidden my-auto">
+                        <g id="LinkedIn ">
+                            <path id="Vector"
+                                d="M21.376 1H2.62403C2.19331 1 1.78023 1.1711 1.47567 1.47567C1.1711 1.78023 1 2.19331 1 2.62403V21.376C1 21.8067 1.1711 22.2198 1.47567 22.5243C1.78023 22.8289 2.19331 23 2.62403 23H21.376C21.8067 23 22.2198 22.8289 22.5243 22.5243C22.8289 22.2198 23 21.8067 23 21.376V2.62403C23 2.19331 22.8289 1.78023 22.5243 1.47567C22.2198 1.1711 21.8067 1 21.376 1ZM7.55722 19.7412H4.24958V9.23472H7.55722V19.7412ZM5.90111 7.77875C5.52592 7.77663 5.15975 7.66343 4.84884 7.45341C4.53792 7.2434 4.29619 6.94598 4.15414 6.59871C4.01209 6.25144 3.97609 5.86987 4.05069 5.50217C4.1253 5.13446 4.30715 4.79709 4.57331 4.53263C4.83946 4.26818 5.178 4.08849 5.54618 4.01625C5.91436 3.94402 6.29569 3.98246 6.64204 4.12674C6.98839 4.27101 7.28424 4.51465 7.49226 4.82691C7.70027 5.13917 7.81113 5.50605 7.81083 5.88125C7.81437 6.13245 7.7673 6.38178 7.67243 6.6144C7.57755 6.84702 7.43681 7.05816 7.2586 7.23523C7.08039 7.41229 6.86836 7.55167 6.63514 7.64505C6.40191 7.73843 6.15228 7.7839 5.90111 7.77875ZM19.7489 19.7504H16.4428V14.0106C16.4428 12.3178 15.7232 11.7953 14.7943 11.7953C13.8135 11.7953 12.851 12.5347 12.851 14.0533V19.7504H9.54333V9.24236H12.7242V10.6983H12.7669C13.0862 10.0521 14.2046 8.9475 15.9111 8.9475C17.7567 8.9475 19.7504 10.0429 19.7504 13.2512L19.7489 19.7504Z"
+                                fill="#0A66C2" />
+                        </g>
+                    </svg>
+
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="aspect-[4.47] object-contain object-center mx-2 overflow-hidden my-auto">
+                    <g id="Facebook ">
+                        <g id="Vector">
+                            <path
+                                d="M23 12C23 5.92486 18.0751 1 12 1C5.92486 1 1 5.92486 1 12C1 17.4903 5.02252 22.0411 10.2812 22.8664V15.1797H7.48828V12H10.2812V9.57656C10.2812 6.81969 11.9235 5.29687 14.4361 5.29687C15.6392 5.29687 16.8984 5.51172 16.8984 5.51172V8.21875H15.5114C14.145 8.21875 13.7187 9.06674 13.7187 9.9375V12H16.7695L16.2818 15.1797H13.7187V22.8664C18.9775 22.0411 23 17.4903 23 12Z"
+                                fill="#1877F2" />
+                            <path
+                                d="M16.2818 15.1797L16.7695 12H13.7187V9.9375C13.7187 9.06759 14.145 8.21875 15.5114 8.21875H16.8984V5.51172C16.8984 5.51172 15.6392 5.29687 14.4361 5.29687C11.9235 5.29687 10.2812 6.81969 10.2812 9.57656V12H7.48828V15.1797H10.2812V22.8664C11.4202 23.0445 12.5798 23.0445 13.7187 22.8664V15.1797H16.2818Z"
+                                fill="white" />
+                        </g>
+                    </g>
+                </svg>
+            </div>
+
+            </div>
+        </div>
+
+
+
+        <!-- Card -->
+
+        <div class="items-center shadow-md flex justify-center md:justify-between gap-5 pl-10 pr-8 py-4 max-md:flex-wrap max-md:px-5 card-bg card-top-shadow">
+            <div class="justify-center text-violet-700  font-medium leading-9 capitalize f-24 shrink basis-auto my-auto">
+                You are Invited to Join this Batch
+            </div>
+            <div
+                class="text-white text-lg font-semibold leading-7 whitespace-nowrap justify-center items-center f-18 bg-green-500 self-stretch  px-4 py-3 rounded-lg max-md:px-5">
+                Accept & Proceed to Pay
+            </div>
+        </div>
+
+        <!-- Card -->
+
+        <div class="shadow-md bg-zinc-50 px-16 py-3 max-md:px-5">
+            <div class="max-width-lg gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+                <div class="flex flex-col items-stretch w-[31%] max-md:w-full max-md:ml-0">
+                    <div class="flex items-stretch gap-3.5 mt-3.5 max-md:mt-10">
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/a39e636eb029ea6235ae84322b28f92fd23cf7545b8d776bbe2e4dde0e7a9fad?apiKey=f6dff738b4e84b328b802d4fc6431018&"
+                            class="aspect-[0.88] object-contain object-center w-[21px] overflow-hidden shrink-0 max-w-full" />
+                        <div class="text-zinc-800  self-center  whitespace-nowrap my-auto">
+                            Back
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col items-stretch w-[48%] ml-5 max-md:w-full max-md:ml-0">
+                    <div class="flex flex-col items-center max-md:mt-10">
+                        <div class="justify-center text-violet-700 text-center  font-medium leading-7">
+                            Accepting Students
+                        </div>
+                        <div
+                            class="justify-between items-stretch self-stretch border border-[color:var(--enthu-pink,#FF1472)] bg-white flex gap-2 mt-3.5 px-5 py-3 rounded-[34px] border-solid max-md:px-5">
+                            <div class="justify-center text-pink-600 text-center  leading-7">
+                                Last date for applying
+                            </div>
+                            <div
+                                class="justify-center text-pink-600 text-center  font-semibold leading-7 whitespace-nowrap">
+                                28 March, 2023
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col items-stretch ml-5 max-md:w-full max-md:ml-0">
+                    <div
+                        class="justify-center items-center bg-violet-700 flex gap-4 w-full px-3.5 py-2.5 rounded-2xl max-md:mt-10">
+                        <div class="text-white text-lg font-semibold leading-7  whitespace-nowrap my-auto">
+                            Invite Your Friends
+                        </div>
+                        <img loading="lazy"
+                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/57f93c4bc05408eadf5053e7391b8f0189f8cb84f09200b51c719bcdd82647fd?apiKey=f6dff738b4e84b328b802d4fc6431018&"
+                            class="aspect-square object-contain object-center w-[30px] shadow-sm overflow-hidden self-stretch shrink-0 max-w-full" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Card -->
+
+        <div class="max-width-lg items-stretch flex flex-col pt-7 pb-12 px-5 rounded-lg">
+            <div class="justify-center text-zinc-800 text-justify  font-semibold leading-7 max-md:max-w-full">
+                Your Course
+            </div>
+            <div
+                class="shadow-md bg-white mt-6 px-4 py-3.5 rounded-lg border-[0.5px] border-solid border-pink-600 border-opacity-50 max-md:max-w-full">
+                <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+                    <div class="flex flex-col items-stretch w-[18%] max-md:w-full max-md:ml-0">
+                        <img loading="lazy"
+                            srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/22412cb2458e20017341263bc3f1c56c1989dafb7bdd572411cdb58864b05cb8?apiKey=f6dff738b4e84b328b802d4fc6431018&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/22412cb2458e20017341263bc3f1c56c1989dafb7bdd572411cdb58864b05cb8?apiKey=f6dff738b4e84b328b802d4fc6431018&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/22412cb2458e20017341263bc3f1c56c1989dafb7bdd572411cdb58864b05cb8?apiKey=f6dff738b4e84b328b802d4fc6431018&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/22412cb2458e20017341263bc3f1c56c1989dafb7bdd572411cdb58864b05cb8?apiKey=f6dff738b4e84b328b802d4fc6431018&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/22412cb2458e20017341263bc3f1c56c1989dafb7bdd572411cdb58864b05cb8?apiKey=f6dff738b4e84b328b802d4fc6431018&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/22412cb2458e20017341263bc3f1c56c1989dafb7bdd572411cdb58864b05cb8?apiKey=f6dff738b4e84b328b802d4fc6431018&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/22412cb2458e20017341263bc3f1c56c1989dafb7bdd572411cdb58864b05cb8?apiKey=f6dff738b4e84b328b802d4fc6431018&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/22412cb2458e20017341263bc3f1c56c1989dafb7bdd572411cdb58864b05cb8?apiKey=f6dff738b4e84b328b802d4fc6431018&"
+                            class="aspect-[1.32] object-contain object-center w-[221px] overflow-hidden shrink-0 max-w-full max-md:mt-8" />
+                    </div>
+                    <div class="flex flex-col items-stretch w-[82%] max-md:w-full max-md:ml-0">
+                        <div class="flex flex-col items-stretch max-md:max-w-full max-md:mt-9">
+                            <div class="flex justify-between gap-5 px-px items-start max-md:max-w-full max-md:flex-wrap">
+                                <div
+                                    class="justify-center text-pink-600 font-medium shrink basis-auto">
+                                    Violin
+                                </div>
+                                <div
+                                    class="text-zinc-800 text-sm font-medium leading-5 card-bg whitespace-nowrap justify-center f-14 items-stretch rounded  px-3 py-px">
+                                    Not Started
+                                </div>
+                            </div>
+                            <div class="text-zinc-800 text-justify  leading-5 mt-3 max-md:max-w-full">
+                                Learn to play violin with expert music teachers online at
+                                Enthuziastic. Start from scratch and learn to play popular melodies.
+                                Kids or adults, anybody can join this course and start learning
+                                violin.
+                                <br />
+                            </div>
+                            <div
+                                class="flex justify-between gap-5 mt-4 items-start max-md:flex-wrap max-md:justify-center">
+                                <div class="items-stretch flex  basis-[0%] flex-col">
+                                    <div class="flex justify-between gap-3 py-0.5 items-start">
+                                        <img loading="lazy"
+                                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/ccc37298aa48d5ba7f3ca7969d1bea4b958b55332b0517729a2a1d6f97242902?apiKey=f6dff738b4e84b328b802d4fc6431018&"
+                                            class="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full" />
+                                        <div
+                                            class="justify-center text-zinc-800 self-stretch  whitespace-nowrap">
+                                            <span class="font-semibold">120</span>
+                                            <span class=""></span>
+                                            <span class="font-semibold">live</span>
+                                            <span class="">tutoring sessions</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex gap-3 py-0.5 items-start">
+                                        <img loading="lazy"
+                                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/ccc37298aa48d5ba7f3ca7969d1bea4b958b55332b0517729a2a1d6f97242902?apiKey=f6dff738b4e84b328b802d4fc6431018&"
+                                            class="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full" />
+                                        <div
+                                            class="justify-center text-zinc-800 stify  font-semibold ">
+                                            12 Modules
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="items-stretch flex  basis-[0%] flex-col">
+                                    <div class="flex justify-between gap-3 py-0.5 items-start">
+                                        <img loading="lazy"
+                                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/ccc37298aa48d5ba7f3ca7969d1bea4b958b55332b0517729a2a1d6f97242902?apiKey=f6dff738b4e84b328b802d4fc6431018&"
+                                            class="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full" />
+                                        <div class="justify-center text-zinc-800 text-justify  ">
+                                            <span class="">Access on</span>
+                                            <span class="font-semibold">mobile and web</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex justify-between gap-3 pr-5 py-0.5 items-start">
+                                        <img loading="lazy"
+                                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/ccc37298aa48d5ba7f3ca7969d1bea4b958b55332b0517729a2a1d6f97242902?apiKey=f6dff738b4e84b328b802d4fc6431018&"
+                                            class="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full" />
+                                        <div
+                                            class="justify-center text-zinc-800 stify   self-stretch  whitespace-nowrap">
+                                            <span class="font-semibold">Certificate</span>
+                                            <span class="">of completion</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="items-stretch flex  basis-[0%] flex-col">
+                                    <div class="flex justify-between gap-3 py-0.5 items-start">
+                                        <img loading="lazy"
+                                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/ccc37298aa48d5ba7f3ca7969d1bea4b958b55332b0517729a2a1d6f97242902?apiKey=f6dff738b4e84b328b802d4fc6431018&"
+                                            class="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full" />
+                                        <div class="justify-center text-zinc-800 stify  ">
+                                            <span class="">Access on</span>
+                                            <span class="font-semibold">mobile and web</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex justify-between gap-3 pr-5 py-0.5 items-start">
+                                        <img loading="lazy"
+                                            src="https://cdn.builder.io/api/v1/image/assets/TEMP/ccc37298aa48d5ba7f3ca7969d1bea4b958b55332b0517729a2a1d6f97242902?apiKey=f6dff738b4e84b328b802d4fc6431018&"
+                                            class="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full" />
+                                        <div
+                                            class="justify-center text-zinc-800 stify   self-stretch  whitespace-nowrap">
+                                            <span class="font-semibold">Certificate</span>
+                                            <span class="">of completion</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="justify-center items-stretch border border-[color:var(--enthu-pink,#FF1472)] shadow-sm bg-pink-600 flex gap-2 mt-2 px-6 py-2 rounded-lg border-solid max-md:px-5">
+                                    <img loading="lazy"
+                                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/0732be090e011a4eb6fa0d873656efec00160d9e4942b40e0dcd940594a20394?apiKey=f6dff738b4e84b328b802d4fc6431018&"
+                                        class="aspect-square object-contain object-center w-9 overflow-hidden shrink-0 max-w-full" />
+                                    <button
+                                        class="text-white f-18 leading-7 self-center whitespace-nowrap my-auto">
+                                        Curriculum
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="items-stretch shadow-md bg-violet-700 flex w-full justify-between gap-5 mt-10 pl-3.5 pr-20 py-2.5 rounded-lg max-md:max-w-full max-md:flex-wrap max-md:pr-5">
+                <div class="flex items-stretch justify-between gap-2">
+                    <div
+                        class="justify-center text-violet-700 text-center  font-medium leading-6 whitespace-nowrap aspect-square items-stretch px-2.5 py-3.5 rounded-[50%]">
+                        24
+                    </div>
+                    <div
+                        class="justify-center text-white text-center  font-medium leading-7 self-center  whitespace-nowrap my-auto">
+                        Total Sessions
+                    </div>
+                </div>
+                <div class="flex items-stretch justify-between gap-4">
+                    <div
+                        class="justify-center text-violet-700 text-center  font-medium leading-6 whitespace-nowrap aspect-square items-stretch px-3 py-3.5 rounded-[50%]">
+                        14
+                    </div>
+                    <div class="justify-center text-white text-center  font-medium leading-7 my-auto">
+                        Sessions not Started
+                    </div>
+                </div>
+                <div class="flex items-stretch justify-between gap-2">
+                    <div
+                        class="justify-center text-violet-700 text-center  font-medium leading-6 whitespace-nowrap aspect-square items-stretch px-3 py-3.5 rounded-[50%]">
+                        10
+                    </div>
+                    <div class="justify-center text-white  font-medium leading-7 self-center my-auto">
+                        Sessions Completed
+                    </div>
+                </div>
+            </div>
+            <div class="justify-center mt-10 max-md:max-w-full">
+                <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+                    <div class="flex flex-col items-stretch w-[26%] max-md:w-full max-md:ml-0">
+                        <div
+                            class="justify-center items-stretch bg-pink-50 flex  flex-col w-full pb-6 rounded-xl max-md:mt-9">
+                            <div
+                                class="card-bg text-center font-medium leading-6 whitespace-nowrap justify-center items-center py-2.5 rounded-xl max-md:px-5">
+                                Batch No. - 1234567
+                            </div>
+                            <div class="flex flex-col mt-5 px-7 max-md:px-5">
+                                <div class="self-stretch flex items-stretch gap-4">
+                                    <img loading="lazy"
+                                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/c64d8702ac6da0c8f6730466f3b0a1a05a4eb75e96f9e475f954705b89e753ed?apiKey=f6dff738b4e84b328b802d4fc6431018&"
+                                        class="aspect-square object-contain object-center w-[30px] overflow-hidden shrink-0 max-w-full" />
+                                    <div class="justify-center text-zinc-800  font-medium leading-8 my-auto">
+                                        <span class="">Sessions</span>
+                                        <span class="font-medium">: 24</span>
+                                    </div>
+                                </div>
+                                <div class="self-stretch flex items-stretch gap-4 mt-4">
+                                    <img loading="lazy"
+                                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/a0ea48789d2e0235e7100f5497291d6fb0a4baaf2575a18e1faca373e3d1d3b2?apiKey=f6dff738b4e84b328b802d4fc6431018&"
+                                        class="aspect-square object-contain object-center w-[30px] overflow-hidden shrink-0 max-w-full" />
+                                    <div class="justify-center text-zinc-800  font-medium leading-8 my-auto">
+                                        <span class="">Max. Learners</span>
+                                        <span class="font-medium">: 4</span>
+                                    </div>
+                                </div>
+                                <div class="self-stretch flex items-stretch gap-4 mt-4">
+                                    <img loading="lazy"
+                                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/ed21d60e475debcae7719ba5847767f018d43e73e473e5f0216113d271430ea8?apiKey=f6dff738b4e84b328b802d4fc6431018&"
+                                        class="aspect-square object-contain object-center w-[30px] overflow-hidden shrink-0 max-w-full" />
+                                    <div class="justify-center text-zinc-800  font-medium leading-8 my-auto">
+                                        <span class="">Language</span>
+                                        <span class="font-medium">: English</span>
+                                    </div>
+                                </div>
+                                <div class="self-stretch flex items-stretch gap-4 mt-4">
+                                    <img loading="lazy"
+                                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/3b049ebdee237bc3f62b441db3321b1ca8d3b5e101686a2eb67033212d12f482?apiKey=f6dff738b4e84b328b802d4fc6431018&"
+                                        class="aspect-square object-contain object-center w-[30px] overflow-hidden shrink-0 max-w-full" />
+                                    <div class="justify-center text-zinc-800  font-medium leading-8 my-auto">
+                                        <span class="">Age Group</span>
+                                        <span class="font-medium">: 12 to 24</span>
+                                    </div>
+                                </div>
+                                <div class="self-center flex items-stretch gap-4 mt-5">
+                                    <img loading="lazy"
+                                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/d790af54ded248302e962df7835c3a5c6eaeca587ce3a61db49377a38c778876?apiKey=f6dff738b4e84b328b802d4fc6431018&"
+                                        class="aspect-square object-contain object-center w-6 overflow-hidden shrink-0 max-w-full" />
+                                    <div class="justify-center text-zinc-800  font-medium leading-8 my-auto">
+                                        <span class="">Start Date</span>
+                                        <span class="font-medium">: 10 Aug 2023</span>
+                                    </div>
+                                </div>
+                                <img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/3e11416e79a3c49b0a0e168302b3157e650ec368f2c36c8f93db2172bf5614ba?apiKey=f6dff738b4e84b328b802d4fc6431018&"
+                                    class="aspect-[269] object-contain object-center w-full stroke-[1px] stroke-stone-300 overflow-hidden self-stretch mt-6" />
+                                <div class="text-gray-900  font-medium leading-6 self-stretch mt-7">
+                                    <span class="font-medium">Schedule</span>
+                                    <span class="font-semibold">(Session/ Week - 4)</span>
+                                </div>
+                                <div
+                                    class="flex flex-wrap items-stretch gap-2 ml-3 mt-3.5 self-start max-md:justify-center max-md:ml-2.5">
+                                    <div
+                                        class="text-center text-neutral-500 text-xs font-medium leading-5 whitespace-nowrap justify-center items-center border border-[color:var(--Placeholder,#C4C4C4)] bg-white aspect-square h-[29px] rounded-lg border-solid">
+                                        Su
+                                    </div>
+                                    <div
+                                        class="text-center text-neutral-500 text-xs font-medium leading-5 whitespace-nowrap justify-center items-center border border-[color:var(--Placeholder,#C4C4C4)] bg-white aspect-[1.0344827586206897] h-[30px] rounded-lg border-solid">
+                                        M
+                                    </div>
+                                    <div
+                                        class="text-center text-white text-xs font-medium leading-5 whitespace-nowrap justify-center items-center border border-[color:var(--enthu-pink,#FF1472)] bg-pink-600 aspect-square w-[29px] h-[29px] rounded-lg border-solid">
+                                        T
+                                    </div>
+                                    <div
+                                        class="text-center text-neutral-500 text-xs font-medium leading-5 whitespace-nowrap justify-center items-center border border-[color:var(--Placeholder,#C4C4C4)] bg-white aspect-square w-[29px] h-[29px]  rounded-lg border-solid">
+                                        W
+                                    </div>
+                                    <div
+                                        class="text-center text-white text-xs font-medium leading-5 whitespace-nowrap justify-center items-center border border-[color:var(--enthu-pink,#FF1472)] bg-pink-600 aspect-square w-[29px] h-[29px]  rounded-lg border-solid">
+                                        Th
+                                    </div>
+                                    <div
+                                        class="text-center text-neutral-500 text-xs font-medium leading-5 whitespace-nowrap justify-center items-center border border-[color:var(--Placeholder,#C4C4C4)] bg-white aspect-square w-[29px] h-[29px] rounded-lg border-solid">
+                                        F
+                                    </div>
+                                    <div
+                                        class="text-center text-neutral-500 text-xs font-medium leading-5 whitespace-nowrap justify-center items-center border border-[color:var(--Placeholder,#C4C4C4)] bg-white aspect-square h-[29px]  rounded-lg border-solid">
+                                        S
+                                    </div>
+                                </div>
+                                <div class="self-center flex items-stretch justify-between gap-5 mt-2.5">
+                                    <div class="text-neutral-500 text-center text-xs leading-4">
+                                        08:00
+                                        <br />
+                                        AM
+                                    </div>
+                                    <div class="text-neutral-500 text-center text-xs leading-4">
+                                        08:00
+                                        <br />
+                                        AM
+                                    </div>
+                                </div>
+                                <img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/3e11416e79a3c49b0a0e168302b3157e650ec368f2c36c8f93db2172bf5614ba?apiKey=f6dff738b4e84b328b802d4fc6431018&"
+                                    class="aspect-[269] object-contain object-center w-full stroke-[1px] stroke-stone-300 overflow-hidden self-stretch mt-6" />
+                                <div class="text-gray-500  leading-6 self-stretch whitespace-nowrap mt-7">
+                                    Host / Teacher
+                                </div>
+                                <div class="self-stretch flex gap-3.5 mt-3 items-start">
+                                    <img loading="lazy"
+                                        srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/d4794957dfd663de3764f1e37612ac916924b3a655219251985ce36b7a9d0a07?apiKey=f6dff738b4e84b328b802d4fc6431018&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/d4794957dfd663de3764f1e37612ac916924b3a655219251985ce36b7a9d0a07?apiKey=f6dff738b4e84b328b802d4fc6431018&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d4794957dfd663de3764f1e37612ac916924b3a655219251985ce36b7a9d0a07?apiKey=f6dff738b4e84b328b802d4fc6431018&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/d4794957dfd663de3764f1e37612ac916924b3a655219251985ce36b7a9d0a07?apiKey=f6dff738b4e84b328b802d4fc6431018&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/d4794957dfd663de3764f1e37612ac916924b3a655219251985ce36b7a9d0a07?apiKey=f6dff738b4e84b328b802d4fc6431018&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/d4794957dfd663de3764f1e37612ac916924b3a655219251985ce36b7a9d0a07?apiKey=f6dff738b4e84b328b802d4fc6431018&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/d4794957dfd663de3764f1e37612ac916924b3a655219251985ce36b7a9d0a07?apiKey=f6dff738b4e84b328b802d4fc6431018&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/d4794957dfd663de3764f1e37612ac916924b3a655219251985ce36b7a9d0a07?apiKey=f6dff738b4e84b328b802d4fc6431018&"
+                                        class="aspect-square object-contain object-center w-10 overflow-hidden shrink-0 max-w-full rounded-[50%]" />
+                                    <div class="flex  basis-[0%] flex-col items-stretch">
+                                        <div class="text-gray-900  font-medium leading-5 whitespace-nowrap">
+                                            Avinash Dave
+                                        </div>
+                                        <div class="flex items-start justify-between gap-0.5 mt-1.5 max-md:justify-center">
+                                            <div
+                                                class="justify-center text-yellow-400  font-medium leading-5 self-center whitespace-nowrap my-auto">
+                                                4.5
+                                            </div>
+                                            <img loading="lazy"
+                                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/9f71f40919dd57c3d45b534e3536ebd58ca8276009a61a174367ab275ff1fe12?apiKey=f6dff738b4e84b328b802d4fc6431018&"
+                                                class="aspect-square object-contain object-center w-3.5 fill-yellow-400 stroke-[1.696px] stroke-yellow-400 overflow-hidden shrink-0 max-w-full self-start" />
+                                            <img loading="lazy"
+                                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/1141c540ba6a21cfcab88aca1226f9fb73af4aed03fb27b4cd4cfc029c317d48?apiKey=f6dff738b4e84b328b802d4fc6431018&"
+                                                class="aspect-[1.07] object-contain object-center w-[15px] fill-yellow-400 stroke-[1.696px] stroke-yellow-400 overflow-hidden shrink-0 max-w-full self-start" />
+                                            <img loading="lazy"
+                                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/1ec004c17fabc6cc6b6f326e17592951bba1c20a737783f672878e6a981511c9?apiKey=f6dff738b4e84b328b802d4fc6431018&"
+                                                class="aspect-[0.93] object-contain object-center w-[13px] fill-yellow-400 stroke-[1.696px] stroke-yellow-400 overflow-hidden shrink-0 max-w-full self-start" />
+                                            <img loading="lazy"
+                                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/9f71f40919dd57c3d45b534e3536ebd58ca8276009a61a174367ab275ff1fe12?apiKey=f6dff738b4e84b328b802d4fc6431018&"
+                                                class="aspect-square object-contain object-center w-3.5 fill-yellow-400 stroke-[1.696px] stroke-yellow-400 overflow-hidden shrink-0 max-w-full self-start" />
+                                            <img loading="lazy"
+                                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/72ea65078423099207fa70f9225b258f4de6479409252a97b2aa5b82a5eb8981?apiKey=f6dff738b4e84b328b802d4fc6431018&"
+                                                class="aspect-[1.07] object-contain object-center w-[15px] stroke-[1.696px] stroke-yellow-400 overflow-hidden shrink-0 max-w-full self-start" />
+                                            <div
+                                                class="justify-center text-zinc-800  font-medium leading-5 whitespace-nowrap self-start">
+                                                (120)
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-gray-500  leading-6 self-stretch whitespace-nowrap mt-5">
+                                    Enrolled Learners
+                                </div>
+                                <img loading="lazy"
+                                    srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/572b0faa-7a88-4e56-8104-2b4b4f452804?apiKey=f6dff738b4e84b328b802d4fc6431018&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/572b0faa-7a88-4e56-8104-2b4b4f452804?apiKey=f6dff738b4e84b328b802d4fc6431018&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/572b0faa-7a88-4e56-8104-2b4b4f452804?apiKey=f6dff738b4e84b328b802d4fc6431018&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/572b0faa-7a88-4e56-8104-2b4b4f452804?apiKey=f6dff738b4e84b328b802d4fc6431018&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/572b0faa-7a88-4e56-8104-2b4b4f452804?apiKey=f6dff738b4e84b328b802d4fc6431018&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/572b0faa-7a88-4e56-8104-2b4b4f452804?apiKey=f6dff738b4e84b328b802d4fc6431018&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/572b0faa-7a88-4e56-8104-2b4b4f452804?apiKey=f6dff738b4e84b328b802d4fc6431018&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/572b0faa-7a88-4e56-8104-2b4b4f452804?apiKey=f6dff738b4e84b328b802d4fc6431018&"
+                                    class="aspect-[7.91] object-contain object-center w-[269px] overflow-hidden self-center mt-3.5 rounded-[50%]" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-stretch w-[74%] max-md:w-full max-md:ml-0">
+                        <div class="justify-end items-stretch bg-white flex flex-col w-full mt-5 py-0.5 max-md:max-w-full max-md:mt-10">
+                            <div
+                                class="justify-center text-zinc-800 stify  font-semibold leading-7 max-md:max-w-full">
+                                Curriculum
+                            </div>
+                            <div
+                                class="text-black  leading-8 items-stretch border bg-white justify-center mt-3 px-4 py-6 rounded-lg border-solid border-stone-300 border-opacity-50 max-md:max-w-full">
+                                The violin course is designed to provide comprehensive instruction
+                                and guidance for beginners and intermediate learners looking to
+                                master the art of playing the violin. Throughout the course,
+                                students will receive a well-structured curriculum that covers the
+                                essential aspects of violin playing, from the basics to more
+                                advanced techniques.
+                                <br />
+                                <br />
+                                The course begins with an introduction to the violin, its parts, and
+                                how to properly hold the instrument and the bow. Students will learn
+                                the fundamentals of reading sheet music and understanding musical
+                                notation specific to the violin.
+                                <br />
+                                As the course progresses, students will be introduced to basic
+                                bowing techniques, finger placements, and scales. They will
+                                gradually advance to more complex bowing styles, vibrato, and
+                                shifting positions on the fingerboard. Proper posture and hand
+                                positioning will be emphasized to ensure students develop good
+                                habits and prevent injuries.
+                                <br />
+                                <br />
+                                Throughout the course, students will be exposed to a variety of
+                                musical pieces, ranging from classical to contemporary, allowing
+                                them to apply their newly acquired skills and improve their
+                                performance abilities.
+                                <br />
+                                The violin course will also cover music theory relevant to the
+                                instrument, enabling students to grasp the principles of harmony,
+                                rhythm, and musical expression, enhancing their overall
+                                musicianship.
+                                <br />
+                                <br />
+                                In addition to individual practice, the course may include ensemble
+                                playing opportunities, providing students with the chance to
+                                collaborate with other musicians and develop their ensemble skills.
+                                <br />
+                                By the end of the course, students should have gained a solid
+                                foundation in violin playing, a good understanding of music theory,
+                                and the ability to perform various pieces confidently. Whether
+                                pursuing a professional music career or playing the violin for
+                                personal enjoyment, this course aims to equip students with the
+                                necessary skills to continue advancing their musical journey.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="items-stretch bg-white flex flex-col justify-center mt-10 mb-12 pr-1.5 py-2 rounded-lg max-md:max-w-full max-md:mb-10">
+                <div class="flex w-full justify-between gap-5 px-0.5 items-start max-md:max-w-full max-md:flex-wrap">
+                    <div class="flex basis-[0%] flex-col items-stretch mt-1.5">
+                        <div class="text-neutral-500 text-sm leading-5 whitespace-nowrap">
+                            Pro Rated Price
+                        </div>
+                        <div class="flex items-stretch justify-between gap-1.5 mt-1.5">
+                            <div class="text-gray-900 text-3xl font-bold leading-10 whitespace-nowrap">
+                                $ 28.89
+                            </div>
+                            <div class="text-gray-900 text-sm font-medium leading-5 whitespace-nowrap mt-3 self-start">
+                                (14 sessions)
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="flex items-stretch justify-between gap-4 px-0.5 max-md:max-w-full max-md:flex-wrap">
+                        <div
+                            class="text-white text-lg font-medium leading-7 whitespace-nowrap justify-center items-center bg-pink-600  px-16 py-3.5 rounded-lg max-md:max-w-full max-md:px-5">
+                            Apply To Learn
+                        </div>
+                        <div
+                            class="text-pink-600 text-lg font-medium leading-7 whitespace-nowrap justify-center items-center border border-[color:var(--enthu-pink,#FF1472)]  px-16 py-3.5 rounded-lg border-solid max-md:max-w-full max-md:px-5">
+                            Apply To Teach
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Footer -->
+
+        <div class="items-stretch bg-violet-700 flex flex-col pt-12 pb-7 px-20 max-md:px-5">
+            <div class="max-width-lg mt-3.5 max-md:max-w-full">
+                <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+                    <div class="flex flex-col items-stretch w-[32%] max-md:w-full max-md:ml-0">
+                        <div class="items-center flex  flex-col pb-11 max-md:mt-10">
+                            <img loading="lazy"
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/335d65cf101cb124952ec8c4a73ec748f3c84ec877c5ae7025ebcf9dffe89ec1?apiKey=f6dff738b4e84b328b802d4fc6431018&"
+                                class="aspect-[9.6] object-contain object-center w-96 overflow-hidden" />
+                            <div class="self-stretch text-white  font-medium leading-6 mt-5">
+                                EnthuZiastic is a vibrant and dynamic community dedicated to
+                                fostering a passion for learning and personal th.
+                            </div>
+                            <div class="items-stretch flex w-[156px] max-w-full gap-5 mt-5 self-start max-md:justify-center">
+                                <img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/716ad5e7f4a49ea992d26256f63024aa9ee78f92c2fb75d8a4332e0f51c3cb5d?apiKey=f6dff738b4e84b328b802d4fc6431018&"
+                                    class="aspect-square object-contain object-center w-full justify-center items-center overflow-hidden shrink-0 flex-1" />
+                                <img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/09886b1895d8b08db0ec33076530c2a4bccaaf9fbad120b2d562e4f1bd626fd0?apiKey=f6dff738b4e84b328b802d4fc6431018&"
+                                    class="aspect-square object-contain object-center w-full overflow-hidden shrink-0 flex-1" />
+                                <img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/cd82c6b19ff8922b313fe4992db3007c75ac0720f0ec5903a1eea3d6ec44f04e?apiKey=f6dff738b4e84b328b802d4fc6431018&"
+                                    class="aspect-square object-contain object-center w-full overflow-hidden shrink-0 flex-1" />
+                                <img loading="lazy"
+                                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/603d31c59912921cb5dc1de8e16195b5c4fc9877fed42db48165e349e6153000?apiKey=f6dff738b4e84b328b802d4fc6431018&"
+                                    class="aspect-square object-contain object-center w-full justify-center items-center overflow-hidden shrink-0 flex-1" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col items-stretch w-[68%] ml-5 max-md:w-full max-md:ml-0">
+                        <div class="justify-between  max-md:max-w-full max-md:mt-10">
+                            <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+                                <div class="flex flex-col items-stretch w-3/12 max-md:w-full max-md:ml-0">
+                                    <div class="items-start flex  flex-col max-md:mt-9">
+                                        <div class="self-stretch text-white text-sm font-extrabold leading-5 uppercase">
+                                            COMPANY
+                                        </div>
+                                        <div
+                                            class="text-white  font-medium leading-6 whitespace-nowrap mt-4 self-start">
+                                            About
+                                        </div>
+                                        <div
+                                            class="text-white  font-medium leading-6 whitespace-nowrap mt-4 self-start">
+                                            Premium
+                                        </div>
+                                        <div
+                                            class="text-white  font-medium leading-6 whitespace-nowrap mt-4 self-start">
+                                            Blog
+                                        </div>
+                                        <div
+                                            class="text-white  font-medium leading-6 whitespace-nowrap mt-4 self-start">
+                                            Affiliate Program
+                                        </div>
+                                        <div
+                                            class="text-white  font-medium leading-6 whitespace-nowrap mt-4 self-start">
+                                            Get Coupon
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col items-stretch w-3/12 ml-5 max-md:w-full max-md:ml-0">
+                                    <div class="items-start flex flex-col max-md:mt-9">
+                                        <div class="self-stretch text-white text-sm font-extrabold leading-5 uppercase">
+                                            Help and support
+                                        </div>
+                                        <div
+                                            class="text-white  font-medium leading-6 whitespace-nowrap mt-4 self-start">
+                                            Contact Us
+                                        </div>
+                                        <div
+                                            class="text-white  font-medium leading-6 whitespace-nowrap mt-4 self-start">
+                                            Knowledge Center
+                                        </div>
+                                        <div
+                                            class="text-white  font-medium leading-6 whitespace-nowrap mt-4 self-start">
+                                            Premium Support
+                                        </div>
+                                        <div
+                                            class="text-white  font-medium leading-6 whitespace-nowrap mt-4 self-start">
+                                            Sponsorships
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col items-stretch w-3/12 ml-5 max-md:w-full max-md:ml-0">
+                                    <div class="items-stretch flex  flex-col max-md:mt-9">
+                                        <div class="text-white text-sm font-extrabold leading-5 uppercase">
+                                            RESOURCES
+                                        </div>
+                                        <div class="text-white  font-medium leading-6 mt-4">
+                                            Third-Party Tools
+                                        </div>
+                                        <div class="text-white  font-medium leading-6 mt-4">
+                                            Illustrations
+                                        </div>
+                                        <div class="text-white  font-medium leading-6 mt-4">
+                                            Themesberg
+                                        </div>
+                                        <div class="text-white  font-medium leading-6 mt-4">
+                                            Bluehost
+                                        </div>
+                                        <div class="text-white  font-medium leading-6 mt-4">
+                                            Stock Photos
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex flex-col items-stretch w-3/12 ml-5 max-md:w-full max-md:ml-0">
+                                    <div class="items-start flex flex-col max-md:mt-9">
+                                        <div class="self-stretch text-white text-sm font-extrabold leading-5 uppercase">
+                                            LEGAL
+                                        </div>
+                                        <div
+                                            class="text-white  font-medium leading-6 whitespace-nowrap mt-4 self-start">
+                                            Privacy Policy
+                                        </div>
+                                        <div
+                                            class="text-white  font-medium leading-6 whitespace-nowrap mt-4 self-start">
+                                            Terms & Conditions
+                                        </div>
+                                        <div
+                                            class="text-white  font-medium leading-6 whitespace-nowrap mt-4 self-start">
+                                            EULA
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-gray-200 flex shrink-0 h-px flex-col mt-12 max-md:max-w-full max-md:mt-10"></div>
+            <div class="text-white text-center  font-medium leading-6 mt-7 max-md:max-w-full">
+                © 2023 EnthuZiastic, Inc. All rights reserved.
+            </div>
+        </div>
+
+        </main>
+    </body>
+</html>
