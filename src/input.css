@@ -2,11 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+    /* font-size: 10px; */
+}
+
 body{
     color: #333333;
     font-size: 16px;
     /* font-family: MetropolisNF, sans-serif; */
-    font-weight: 500;
 }
 
 .max-width-lg{
@@ -30,4 +33,28 @@ body{
 }
 .f-14{
     font-size: 14px;
+}
+.f-12 {
+    font-size: 12px;
+}
+
+.px-10{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.pxm-24{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.pym-24 {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.pym-14{
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.w-350{
+    width: 400px;
 }

@@ -560,12 +560,13 @@ video {
   margin-bottom: auto;
 }
 
-.mb-12 {
-  margin-bottom: 3rem;
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.ml-3 {
-  margin-left: 0.75rem;
+.mb-12 {
+  margin-bottom: 3rem;
 }
 
 .ml-5 {
@@ -620,6 +621,10 @@ video {
   margin-top: 1.75rem;
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .flex {
   display: flex;
 }
@@ -658,10 +663,6 @@ video {
 
 .aspect-\[7\.91\] {
   aspect-ratio: 7.91;
-}
-
-.aspect-\[9\.6\] {
-  aspect-ratio: 9.6;
 }
 
 .aspect-square {
@@ -704,8 +705,8 @@ video {
   width: 1.5rem;
 }
 
-.w-9 {
-  width: 2.25rem;
+.w-7 {
+  width: 1.75rem;
 }
 
 .w-96 {
@@ -750,10 +751,6 @@ video {
 
 .w-\[30px\] {
   width: 30px;
-}
-
-.w-\[31\%\] {
-  width: 31%;
 }
 
 .w-\[32\%\] {
@@ -1033,9 +1030,9 @@ video {
   padding-right: 0.125rem;
 }
 
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .px-2 {
@@ -1071,16 +1068,6 @@ video {
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
-}
-
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
-.px-7 {
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
 }
 
 .px-px {
@@ -1166,14 +1153,6 @@ video {
   padding-left: 0.875rem;
 }
 
-.pr-1 {
-  padding-right: 0.25rem;
-}
-
-.pr-1\.5 {
-  padding-right: 0.375rem;
-}
-
 .pr-20 {
   padding-right: 5rem;
 }
@@ -1230,8 +1209,8 @@ video {
   font-weight: 800;
 }
 
-.font-medium {
-  font-weight: 500;
+.font-normal {
+  font-weight: 400;
 }
 
 .font-semibold {
@@ -1331,11 +1310,14 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+:root{
+  /* font-size: 10px; */
+}
+
 body{
   color: #333333;
   font-size: 16px;
   /* font-family: MetropolisNF, sans-serif; */
-  font-weight: 500;
 }
 
 .max-width-lg{
@@ -1361,6 +1343,34 @@ body{
 
 .f-14{
   font-size: 14px;
+}
+
+.f-12 {
+  font-size: 12px;
+}
+
+.px-10{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.pxm-24{
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.pym-24 {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.pym-14{
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.w-350{
+  width: 400px;
 }
 
 @media not all and (min-width: 768px) {
