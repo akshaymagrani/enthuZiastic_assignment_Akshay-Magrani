@@ -1376,6 +1376,14 @@ body{
   right: 20px;
 }
 
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
+
+.hover\:underline-offset-2:hover {
+  text-underline-offset: 2px;
+}
+
 @media not all and (min-width: 768px) {
   .max-md\:mb-10 {
     margin-bottom: 2.5rem;
