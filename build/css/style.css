@@ -729,10 +729,6 @@ video {
   width: 21px;
 }
 
-.w-\[221px\] {
-  width: 221px;
-}
-
 .w-\[26\%\] {
   width: 26%;
 }
@@ -1200,16 +1196,16 @@ video {
   font-weight: 800;
 }
 
+.font-medium {
+  font-weight: 500;
+}
+
 .font-normal {
   font-weight: 400;
 }
 
 .font-semibold {
   font-weight: 600;
-}
-
-.font-medium {
-  font-weight: 500;
 }
 
 .uppercase {
@@ -1376,6 +1372,10 @@ body{
   right: 20px;
 }
 
+.max-width-228{
+  max-width: 228px;
+}
+
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
@@ -1403,10 +1403,6 @@ body{
 
   .max-md\:mt-10 {
     margin-top: 2.5rem;
-  }
-
-  .max-md\:mt-8 {
-    margin-top: 2rem;
   }
 
   .max-md\:mt-9 {
