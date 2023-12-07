@@ -58,3 +58,10 @@ body{
 .w-350{
     width: 400px;
 }
+
+.rightm-10{
+    right: 10px;
+}
+.rightm-20 {
+    right: 20px;
+}
